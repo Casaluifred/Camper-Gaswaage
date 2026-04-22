@@ -52,10 +52,9 @@ Das Projekt wird mit der Arduino IDE auf den Wemos D1 Mini geflasht. Folgende Bi
 4. **Webinterface aufrufen:** Öffne den Browser und navigiere zu `http://192.168.8.6`.
 5. **Tara einstellen:** Lies das Leergewicht deiner Gasflasche ab (eingestanzt am Kragen) und speichere es über das Webinterface.
 
-6. ## Autor
+## Autor
 
 **Fred Fiedler** Fotograf und Fernwehgeplagter  
-GitHub: [Casaluifred](https://github.com/Casaluifred) 
-
-Web: [XTramp](https://www.xtramp.de)
+GitHub: [Casaluifred](https://github.com/Casaluifred).
+Web: [XTramp](https://www.xtramp.de).
 
