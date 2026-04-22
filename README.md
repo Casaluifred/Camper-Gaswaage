@@ -55,5 +55,5 @@ Das Projekt wird mit der Arduino IDE auf den Wemos D1 Mini geflasht. Folgende Bi
 6. ## Autor
 
 **Fred Fiedler** Fotograf und Fernwehgeplagter  
-GitHub: [Casaluifred](https://github.com/Casaluifred)
+GitHub: [Casaluifred](https://github.com/Casaluifred) 
 Web: [XTramp](https://www.xtramp.de)
