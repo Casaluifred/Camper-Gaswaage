@@ -40,7 +40,7 @@ const int HX711_SCK = D5;
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // --- Konstanten & Variablen ---
-const float MAX_GAS_WEIGHT = 11.0; 
+const float MAX_GAS_WEIGHT = 11.0; // hier das Füllgewicht der Gasflasche eintragen
 const float CALIBRATION_FACTOR = -21500.0; // Kalibrierungswert für CZL601
 
 HX711 scale;
@@ -57,7 +57,7 @@ const long interval = 2000;
 // --- WLAN-Einstellungen ---
 const char* ssid = "Gaswaage";
 const char* password = "passwort"; // Standard-Passwort
-IPAddress local_IP(192, 168, 8, 6); 
+IPAddress local_IP(192, 168, 8, 6); // IP-Adresse der Gaswaage
 IPAddress gateway(192, 168, 8, 6);
 IPAddress subnet(255, 255, 255, 0);
 
@@ -82,7 +82,7 @@ void handleRoot() {
   html += "<input type='text' name='tara' value='" + String(emptyWeight, 2) + "' required><br><br>";
   html += "<input type='submit' value='Speichern'>";
   html += "</form>";
-  html += "<p><small>Das Leergewicht finden Sie eingestanzt am Flaschenkragen.</small></p>";
+  html += "<p><small>Das Leergewicht findest Du eingestanzt am Flaschenkragen.</small></p>";
   html += "</body></html>";
   
   server.send(200, "text/html", html);
